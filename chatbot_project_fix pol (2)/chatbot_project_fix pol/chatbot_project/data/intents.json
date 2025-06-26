@@ -1,0 +1,245 @@
+{
+  "intents": [
+    {
+      "intent": "kantor",
+      "text": [
+        "Dimana alamat kantor ?",
+        "Apa alamat kantor ",
+        "Dimana letak kantor ?",
+        "Bisa beri tahu alamat kantor ",
+        "Dimana lokasi kantor?",
+        "Alamat lengkap kantor LBB ?",
+        "Kantor pusat LBB ?",
+        "Alamat cabang LBB ?",
+        "Kantor LBB ada di mana?",
+        "Dimana kantor pusat LBB berada?"
+      ],
+      "responses": [
+        "Kantor pusat: jl. SParman no. 153."
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "AddressOfOffice",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "daftar",
+      "text": [
+        "Bagaimana cara pendaftaran untuk masuk ke LBB ?",
+        "Apa cara untuk mendaftar di LBB ?",
+        "Gimana cara pendaftaran LBB ?",
+        "Bagaimana cara melakukan pendaftaran di LBB ?",
+        "Bisa jelaskan cara mendaftar di LBB ?",
+        "Proses pendaftaran LBB  seperti apa?",
+        "Apa saja tahapan pendaftaran di LBB ?",
+        "Bagaimana saya bisa mendaftar di Lbb?",
+        "Ada prosedur apa untuk mendaftar di LBB ?",
+        "Pendaftaran di LBB Plus itu bagaimana?"
+      ],
+      "responses": [
+        "Terimakasih atas pertanyaan dan antusias Anda. Untuk informasi lebih lanjut, hubungi admin "
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "RegistrationInfo",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "program_pembelajaran",
+      "text": [
+        "Program pembelajaran apa saja yang disediakan oleh lembaga?",
+        "Apa saja program pembelajaran di LBB ?",
+        "LBB  menyediakan program pembelajaran apa saja?",
+        "Mata pelajaran apa yang diajarkan di LBB ?",
+        "Program pembelajaran di LBB  ada apa saja?",
+        "Apa saja program kursus yang ditawarkan di LBB ?",
+        "Pelajaran apa saja yang tersedia di LBB ?",
+        "Apa saja jenis program pembelajaran yang ada di LBB ?",
+        "Jenis program apa yang bisa diambil di LBB ?",
+        "Kursus yang tersedia di LBB  itu apa saja?"
+      ],
+      "responses": [
+        "Untuk program pembelajaran dari LBB, kami menyediakan semua mata pelajaran formal (SD, SMP, SMA, SMK, Perguruan tinggi) dengan kurikulum Nasional, Nasional+ serta internasional."
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "LearningPrograms",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "pemilik",
+      "text": [
+        "Siapa pemilik lembaga?",
+        "Boleh tahu siapa pemilik LBB ?",
+        "Siapa yang punya LBB ?",
+        "Siapa pemilik LBB ?",
+        "LBB  dimiliki oleh siapa?",
+        "Siapa yang memiliki LBB ?",
+        "Pemilik LBB  siapa?",
+        "LBB  dimiliki oleh siapa?",
+        "Siapa yang mendirikan LBB ?",
+        "LBB  kepunyaan siapa?",
+        "siapa pemilik lembaga?"
+      ],
+      "responses": [
+        "Bapak Anthonius Frederik Freddy"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "OwnerInfo",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "sistem_pembelajaran",
+      "text": [
+        "Bagaimana sistem pembelajaran di LBB ?",
+        "Ceritakan tentang sistem pembelajaran di lbb?",
+        "Seperti apa sistem belajar di LBB ?",
+        "Bagaimana cara sistem pembelajaran di ?",
+        "Apa sistem pengajaran di LBB?",
+        "Sistem belajar di LBB  seperti apa?",
+        "LBB  menggunakan sistem pembelajaran apa?",
+        "Sistem yang digunakan LBB  dalam pengajaran apa?",
+        "Bagaimana cara belajar di LBB ?",
+        "Metode pembelajaran di LBB  bagaimana?"
+      ],
+      "responses": [
+        "Terimakasih atas pertanyaan dan antusias Anda. Untuk informasi lebih lanjut, hubungi admin."
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "LearningSystem",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "biaya",
+      "text": [
+        "Berapa biaya kursus ?",
+        "Apa biaya kursus di ?",
+        "Berapa harga kursus di ?",
+        "Biaya kursus di ?",
+        "Berapakah biaya untuk kursus di ?",
+        "Harga untuk kursus di itu berapa?",
+        "Berapa harga kursus di setiap semester?",
+        "Biaya untuk belajar di  itu berapa?",
+        "Berapa biaya per kursus di ?",
+        "Gimana biaya untuk mendaftar di "
+      ],
+      "responses": [
+        "Karena biaya kursus itu beragam, langsung saja hubungi admin."
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "CourseFees",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "halo",
+      "text": [
+        "halo",
+        "Hai",
+        "Halo! saya mau bertanya?",
+        "Halo, ",
+        "Hi, ada yang bisa saya bantu?",
+        "Hai, bagaimana saya bisa membantu?",
+        "Halo! Apa yang bisa saybantu?",
+        "Selamat datang di ",
+        "Halo, bagaimana kabarnya?",
+        "Hai, ada yang bisa saya bantu?"
+      ],
+      "responses": [
+        "Halo selamat datang di web! Ada yang bisa kami bantu?"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "GreetingUserRequest",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "jadwal_kursus",
+      "text": [
+        "Kapan jadwal kursus dimulai?",
+        "Jam kursus ?",
+        "Apa jadwal kursus hari ini?",
+        "Apa waktu kursus di ?",
+        "Jadwal kursus dimulai jam berapa?",
+        "Kapan jadwal kursus dimulai hari ini?",
+        "Jam buka kursus ?",
+        "Jadwal kursus  minggu ini?",
+        "Jam operasional kursus",
+        "Jam kursus di mulai kapan?"
+      ],
+      "responses": [
+        "Jadwal kursus dapat bervariasi tergantung pada mata pelajaran. Silakan hubungi admin untuk informasi lebih lanjut."
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "CourseSchedule",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    }
+  ]
+}
