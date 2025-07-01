@@ -1,8 +1,8 @@
-# Chatbot Bahasa Indonesia
+Chatbot Bahasa Indonesia
 
-Ini adalah project **Chatbot sederhana berbasis Python** yang saya kembangkan untuk melatih kemampuan saya dalam bidang **Natural Language Processing (NLP)**, **Machine Learning**, dan **Web Development** menggunakan Flask.
+Ini adalah project Chatbot sederhana berbasis Python yang saya kembangkan untuk melatih kemampuan saya dalam bidang Natural Language Processing (NLP), Machine Learning, dan Web Development menggunakan Flask.
 
-## Fitur Utama
+Fitur Utama
 
 - Memahami intent pengguna dari input teks
 - Menggunakan dataset sederhana dalam bentuk `intents.json`
@@ -10,7 +10,7 @@ Ini adalah project **Chatbot sederhana berbasis Python** yang saya kembangkan un
 - Tampilan web sederhana untuk interaksi user
 - Dibangun menggunakan framework Flask
 
-##  Teknologi yang Digunakan
+Teknologi yang Digunakan
 
 - Python 3.x
 - Flask
@@ -19,7 +19,7 @@ Ini adalah project **Chatbot sederhana berbasis Python** yang saya kembangkan un
 - HTML, CSS, JavaScript (untuk frontend)
 - Jinja2 (template Flask)
 
-## Struktur Folder
+Struktur Folder
 chatbot-portfolio/
 ├── README.md
 ├── app.py
@@ -33,7 +33,7 @@ chatbot-portfolio/
 ├── templates/
 │ └── index.html
 
-## Instalasi
+Instalasi
 
 1. **Clone repository ini**:
     ```bash
@@ -56,20 +56,3 @@ chatbot-portfolio/
     http://localhost:5000
     ```
 
-## Contoh Dataset `intents.json`
-
-```json
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Hai", "Halo", "Selamat pagi"],
-      "responses": ["Halo juga!", "Hai, ada yang bisa saya bantu?"]
-    },
-    {
-      "tag": "terima_kasih",
-      "patterns": ["Terima kasih", "Makasih"],
-      "responses": ["Sama-sama!", "Senang bisa membantu!"]
-    }
-  ]
-}
